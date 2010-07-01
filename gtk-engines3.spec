@@ -8,7 +8,7 @@
 
 Name:			%{pkgname}%{pkgversion}
 Summary:		Default GTK+ 3.0 theme engines
-Version:		2.90.2.1
+Version:		2.90.3.1
 Release:		%mkrel 1
 License:		GPLv2+ and LGPLv2+
 Group:			System/Libraries
@@ -49,7 +49,8 @@ Library files for %{name}
 
 %build
 
-%configure2_5x --enable-animation
+%configure2_5x
+#--enable-animation
 %make LIBS=-lm
 
 %install
