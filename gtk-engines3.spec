@@ -8,7 +8,7 @@
 
 Name:			%{pkgname}%{pkgversion}
 Summary:		Default GTK+ 3.0 theme engines
-Version:		2.90.3.1
+Version:		2.91.1
 Release:		%mkrel 1
 License:		GPLv2+ and LGPLv2+
 Group:			System/Libraries
