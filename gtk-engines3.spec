@@ -12,6 +12,11 @@ Version:		2.91.1
 Release:		%mkrel 1
 License:		GPLv2+ and LGPLv2+
 Group:			System/Libraries
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:		gtk+3-devel
 BuildRequires:		intltool
 Source0:		http://ftp.gnome.org/pub/GNOME/sources/gtk-engines/%{pkgname}-%{version}.tar.bz2
